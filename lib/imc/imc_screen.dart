@@ -60,7 +60,7 @@ class _ImcScreenState extends State<ImcScreen> {
                         color: StaticImcColors().imcColorYellow,
                         borderRadius: BorderRadius.circular(10),
                       ),
-                      child: Align(child: Text('Underweight')),
+                      child: Align(child: Text('Abaixo do peso')),
                     ),
                     Container(
                       width: screenSize.width>600? screenSize.width*.9/3:screenSize.width*.8/3,
@@ -69,7 +69,7 @@ class _ImcScreenState extends State<ImcScreen> {
                         color: StaticImcColors().imcColorGreen,
                         borderRadius: BorderRadius.circular(10),
                       ),
-                      child: Align(child: Text('Healthy')),
+                      child: Align(child: Text('Saudável'),),
                     ),
                     Container(
                       width: screenSize.width>600? screenSize.width*.9/3:screenSize.width*.8/3,
@@ -78,7 +78,7 @@ class _ImcScreenState extends State<ImcScreen> {
                         color: StaticImcColors().imcColorRed,
                         borderRadius: BorderRadius.circular(10),
                       ),
-                      child: Align(child: Text('Overweight')),
+                      child: Align(child: Text('Sobrepeso')),
                     ),
                   ],
                 ),
@@ -93,7 +93,7 @@ class _ImcScreenState extends State<ImcScreen> {
                     border: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(15),
                     ),
-                    labelText: 'weight (kg)',
+                    labelText: 'peso (kg)',
                   ),
                 ),
         
@@ -106,7 +106,7 @@ class _ImcScreenState extends State<ImcScreen> {
                     border: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(15),
                     ),
-                    labelText: 'height (m)',
+                    labelText: 'altura (m)',
                   ),
                 ),
                 ElevatedButton(
@@ -130,7 +130,7 @@ class _ImcScreenState extends State<ImcScreen> {
                       });
                     }
                   },
-                  child: Text('Calculate'),
+                  child: Text('Calcular'),
                 ),
                 Image.network(StaticImagesURL().imcImageURL),
               ],
