@@ -23,7 +23,7 @@ class ImcResults extends StatelessWidget {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Text('Your body mass index:'),
+          Text('O seu índice de massa corporal:'),
           Text(
             imcResult.toStringAsFixed(2),
             style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
