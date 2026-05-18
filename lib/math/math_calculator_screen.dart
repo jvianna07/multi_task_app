@@ -17,6 +17,7 @@ class _MathCalculatorScreenState extends State<MathCalculatorScreen> {
   Widget build(BuildContext context) {
     // Pegar tamanho da tela para distribuir os botoes de forma proporcional
    var screenSize = MediaQuery.of(context).size;
+   print(screenSize);
       // Widgets pequenos
       return Scaffold(
       body: SafeArea(
@@ -26,6 +27,7 @@ class _MathCalculatorScreenState extends State<MathCalculatorScreen> {
             mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: [
               Container(
+                height: screenSize.height*.32,
                 alignment: Alignment.bottomRight,
                 padding: EdgeInsets.all(16),
                 child: Text(
@@ -36,7 +38,7 @@ class _MathCalculatorScreenState extends State<MathCalculatorScreen> {
                 ),              
               ),
             screenSize.width > screenSize.height? HorizontalKeyboard(): VericalKeyboard(),
-             
+             SizedBox(height: 10,),
             ],
           ),
         ),

@@ -72,7 +72,7 @@ class _HorizontalKeyboardState extends State<HorizontalKeyboard> {
                 'DEL',
                 btnColor: Colors.red, 
                 btnHeight: screenSize.height*0.35/4*2,
-                btnWwidth: screenSize.width * 0.5 /4
+                btnWwidth: screenSize.width * 0.6 /4
 
               ),
              
@@ -85,9 +85,9 @@ SizedBox(height: 8,),
                 onBackspaceBtn,
                 '<-',
                 btnIcon: Icons.backspace,
-                btnColor: const Color.fromARGB(255, 113, 137, 149), 
+                btnColor:  Colors.teal, 
                 btnHeight: screenSize.height*0.41/4*2,
-                btnWwidth: screenSize.width * 0.5 /4
+                btnWwidth: screenSize.width * 0.6 /4
               ),
               
 
