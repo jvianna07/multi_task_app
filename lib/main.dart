@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:imc_calculator/imc/imc_screen.dart';
-import 'package:imc_calculator/math/math_calculator_screen.dart';
-import 'package:imc_calculator/currency/currency_converter_screen.dart';
+import 'package:multi_task_app/imc/imc_screen.dart';
+import 'package:multi_task_app/math/math_calculator_screen.dart';
+import 'package:multi_task_app/currency/currency_converter_screen.dart';
 
 void main() {
   runApp(const MainApp());

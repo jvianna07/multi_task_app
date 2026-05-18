@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:imc_calculator/math/widgets/horizontal_keyboard.dart';
-import 'package:imc_calculator/math/widgets/vertical_keyboard.dart';
+import 'package:multi_task_app/math/widgets/horizontal_keyboard.dart';
+import 'package:multi_task_app/math/widgets/vertical_keyboard.dart';
 
 
 class MathCalculatorScreen extends StatefulWidget {

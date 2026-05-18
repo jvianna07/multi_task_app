@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:imc_calculator/utils/constants.dart';
-import 'package:imc_calculator/imc/utils/imc_calculator.dart';
-import 'package:imc_calculator/imc/utils/form_validators.dart';
-import 'package:imc_calculator/imc/widgets/imc_results.dart';
+import 'package:multi_task_app/utils/constants.dart';
+import 'package:multi_task_app/imc/utils/imc_calculator.dart';
+import 'package:multi_task_app/imc/utils/form_validators.dart';
+import 'package:multi_task_app/imc/widgets/imc_results.dart';
 
 class ImcScreen extends StatefulWidget {
   const ImcScreen({super.key});

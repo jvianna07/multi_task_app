@@ -2,8 +2,8 @@ import 'dart:convert';
 import 'package:country_flags/country_flags.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
-import 'package:imc_calculator/utils/constants.dart';
-import 'package:imc_calculator/currency/utils/exchange_model.dart';
+import 'package:multi_task_app/utils/constants.dart';
+import 'package:multi_task_app/currency/utils/exchange_model.dart';
 import 'package:transparent_image/transparent_image.dart';
 
 

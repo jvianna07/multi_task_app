@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:imc_calculator/utils/constants.dart';
+import 'package:multi_task_app/utils/constants.dart';
 
 class CalculatorBtn extends StatelessWidget {
   final String btnValue;

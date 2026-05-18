@@ -1,7 +1,7 @@
 import 'package:expressions/expressions.dart';
 import 'package:flutter/material.dart';
-import 'package:imc_calculator/utils/constants.dart';
-import 'package:imc_calculator/math/widgets/buttons.dart';
+import 'package:multi_task_app/utils/constants.dart';
+import 'package:multi_task_app/math/widgets/buttons.dart';
 
 class HorizontalKeyboard extends StatefulWidget {
   const HorizontalKeyboard({super.key});
